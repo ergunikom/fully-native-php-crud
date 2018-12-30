@@ -14,8 +14,8 @@ $mail->SMTPDebug = 2;
 $mail->isSMTP(); // untuk memberitahu mailer, bahwa akan menggunakan smtp
 $mail->Host = 'smtp.gmail.com';
 $mail->SMTPAuth = true;
-$mail->Username = 'satria.10118068@mahasiswa.unikom.ac.id';
-$mail->Password = 'scisswxmzoqnurvl';
+$mail->Username = 'youremail@email.com'; // your email or smtp username account
+$mail->Password = 'scisswxmzoqnurvl'; // change this :p
 $mail->SMTPSecure = 'tls'; 
 $mail->Port = 587;
 
